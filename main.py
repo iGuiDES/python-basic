@@ -10,4 +10,19 @@
 # from module2 import task_5
 # from module2 import task_6
 # from module2 import task_7
-from module2 import task_8
+# from module2 import task_8
+# from module3.home import home_1
+# from module3.home import home_2
+# from module3.home import home_3
+# from module3.home import home_4
+from module3 import task_1
+from module3 import task_2
+from module3 import task_3
+from module3 import task_4
+from module3 import task_5
+from module3 import task_6
+from module3 import task_7
+from module3 import task_8
+from module3 import task_9
+from module3 import task10
+
