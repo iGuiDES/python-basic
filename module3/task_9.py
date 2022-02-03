@@ -14,6 +14,9 @@ number_res_2 = number // 100 % 10
 number_res_3 = number // 10 % 10
 number_res_4 = number % 10
 
-print(number_res_4, number_res_3, number_res_2, number_res_1)
+print(number_res_4 * 1000 + number_res_3 * 100 + number_res_2 * 10 + number_res_1)
+
+# # Альтернативное решение
+# print(number_res_4 * 1000 + number_res_3 * 100 + number_res_2 * 10 + number_res_1)
 
 # Сомневаюсь в правильностии решения, не могу понять как это сделать попроще и без проблелов
