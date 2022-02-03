@@ -37,3 +37,8 @@
 # from module4 import task_8
 # from module4 import task_9
 # from module4 import task10
+# from module5.home import home_1
+# from module5.home import home_2
+# from module5.home import home_3
+# from module5 import task_1
+# from module5 import task_2
