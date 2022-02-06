@@ -12,7 +12,12 @@ print('Задача 6. Защита от дурака')
 # Сделайте это, используя не более одного оператора if-elsе. Не используйте elif.
 
 entered_number = int(input('Введите число: '))
-if (entered_number >= 10 or entered_number <= -10):
-  print('Число двухзначное!')
-else: 
+# if entered_number <= 10 or entered_number <= -10:
+#   print('Число не двухзначное!')
+# else: 
+#   print('Число двухзначное!')
+
+if (entered_number >= 100 or entered_number <= -100) or (entered_number < 10 and entered_number > -10):
   print('Число не двухзначное!')
+else: 
+  print('Число двухзначное')
