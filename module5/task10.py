@@ -22,7 +22,7 @@ print('Задача 10. Почта')
 
 works_hours = int(input('Введите время: '))
 
-if works_hours >= 8 and works_hours <= 9 or works_hours >= 12 and works_hours <= 13 or works_hours >= 16 and works_hours <= 17 or works_hours >= 21 and works_hours <= 22:
+if (works_hours >= 8 and works_hours < 10) or (works_hours >= 12 and works_hours < 14) or (works_hours >= 16 and works_hours < 18) or (works_hours >= 20 and works_hours <= 22):
   print('Можно получить поссылку')
 else:
   print('Поссылку получить нельзя')
