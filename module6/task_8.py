@@ -9,3 +9,18 @@ print('Задача 8. Вклады')
 # Напишите программу,
 # которая по данным числам X, Y, P определяет,
 # сколько лет пройдёт, прежде чем сумма достигнет значения Y.
+
+money_invested = int(input('Сколько денег вы инвестировали? '))
+accumulation = int(input('Сколько бы Вы хотели накопить? ')) 
+
+years_pass = 0
+accumulated = 0
+
+while True:
+  percent = int(input('Какой годовой процент? '))
+  accumulated += (money_invested * (percent / 100) // 1)
+  years_pass += 1
+  
+  if accumulated >= accumulation:
+    break
+print('Чтобы получить от банка желаемую сумму, пройдёт', years_pass, 'лет')

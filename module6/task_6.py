@@ -18,3 +18,16 @@ print('Задача 6. Поставьте оценку!')
 # Введите число: 0
 # Кол-во положительных чисел: 1
 # Кол-во отрицательных чисел: 2
+
+true_reviews = 0
+false_reviews = 0
+while True:
+  reviews = int(input('Введите число: '))
+  if reviews < -1 and reviews >= -100:
+    false_reviews += 1
+  if reviews > 0 and reviews <= 100:
+    true_reviews += 1
+  if reviews == 0:
+    break
+print('Количество положительных чисел:', true_reviews)
+print('Количество отрицательных чисел:', false_reviews)

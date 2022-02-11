@@ -47,3 +47,17 @@ print('Задача 7. Обычный день на работе')
  
 # Рабочий день закончился. Всего выполнено задач: 21
 # Нужно зайти в магазин
+
+count_task = 0
+call_taken = 0
+count = 1
+
+while count <= 8:
+  task = int(input('Сколько задач решит Максим? '))
+  call_wife = int(input('Звонит жена. Взять трубку? (1 - да, 0 - нет): '))
+  count_task += task
+  call_taken += call_wife
+  count += 1
+print('Рабочий день закончился. Всего выполненых задач:', count_task)
+if call_taken > 0:
+  print('Нужно зайти в магазин!')
