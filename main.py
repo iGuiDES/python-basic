@@ -38,13 +38,23 @@
 # from module5 import task_8
 # from module5 import task_9
 # from module5 import task10
-from module6 import task_1
-from module6 import task_2
-from module6 import task_3
-from module6 import task_4
-from module6 import task_5
-from module6 import task_6
-from module6 import task_7
-from module6 import task_8
-from module6 import task_9
-from module6 import task10
+# from module6 import task_1
+# from module6 import task_2
+# from module6 import task_3
+# from module6 import task_4
+# from module6 import task_5
+# from module6 import task_6
+# from module6 import task_7
+# from module6 import task_8
+# from module6 import task_9
+# from module6 import task10
+from module7 import task_1
+from module7 import task_2
+from module7 import task_3
+from module7 import task_4
+from module7 import task_5
+from module7 import task_6
+from module7 import task_7
+from module7 import task_8
+from module7 import task_9
+from module7 import task10
