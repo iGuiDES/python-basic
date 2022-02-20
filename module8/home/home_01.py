@@ -33,7 +33,7 @@ while num <= n:
 # Task 3 (for)
 N = int(input('Type number: '))
 
-for number in range(1, N // 2 + 1):
+for number in range(1, N // 2 + N % 2 + 1):
     number = number * 2 - 1
     print(number, '** 2 =', number ** 2)
     
