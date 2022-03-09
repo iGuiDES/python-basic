@@ -1,3 +1,4 @@
+# Fot task lesson
 num = int(input('Введите число: '))
 for number in range(1, num // 2 + num % 2 + 1):
     number = number * 2 - 1
@@ -23,8 +24,8 @@ total_calories = 0
 
 for hour in range(wake_up, 23, 3):
     total_water += 1
-    print('Покушать в', hour)
-    question = int(input('Сколько калорий съел? '))
-    total_calories += question
+    print('Покушать в', hour, 'часов')
+    calories = int(input('Сколько калорий съел? '))
+    total_calories += calories
 print('Всего выпито воды:', total_water)
 print('Всего съедено калорий: ', total_calories)
