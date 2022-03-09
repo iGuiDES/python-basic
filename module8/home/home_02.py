@@ -1,3 +1,8 @@
+num = int(input('Введите число: '))
+for number in range(1, num // 2 + num % 2 + 1):
+    number = number * 2 - 1
+    print(number, '** 2 = ', number ** 2)
+
 # Task 1
 N = int(input('Type number: '))
 for number in range(1, N + 1, 2):
@@ -8,7 +13,7 @@ stool = int(input('Type sum stool: '))
 total_stool_sum = 0
 for number in range(1, stool + 1, 5):
     total_stool_sum += number
-    print('Number stool:',number)
+    print('Number stool:', number)
 print('Sum:', total_stool_sum)
 
 # Task 3
