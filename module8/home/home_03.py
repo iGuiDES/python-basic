@@ -4,6 +4,5 @@ for sec in range(seconds, 0, -1):
     print(sec)
 print('Я иду искать!')
 
-# Task 2
-# Task 3
+
 
