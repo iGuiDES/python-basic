@@ -12,7 +12,7 @@ print('Задача 1. Космическая еда')
 # Используйте цикл for.
 
 products = 100
-for product in range(products, 0, -4):
+for product in range(products - 4, 0, -4):
     if True:
         print('На следующий месяц остается', product, 'килограмм гречки')
 print('Кушать уже нечего!')
