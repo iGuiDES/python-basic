@@ -34,3 +34,22 @@ print('Задача 10. Кинотеатр')
 # Введите кол-во мальчиков: 100
 # Введите кол-во девочек: 1
 # Ответ: Нет решения
+boys = int(input('Сколько мальчиков идет на концерт? '))
+girls = int(input('Сколько девочек иде на концерт? '))
+seating = ''
+
+if (boys > girls * 2) or (girls > boys * 2):
+    print('Хм, кажется нет решения')
+elif boys >= girls:
+    total = boys - girls
+    for bgb in range(total):
+        seating += 'BGB'
+    for bg in range(girls - total):
+        seating += 'BG'
+else:
+    total = girls - boys
+    for gbg in range(total):
+        seating += 'GBG'
+    for gb in range(boys - total):
+        seating += 'GB'
+print(seating)
