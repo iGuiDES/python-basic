@@ -27,7 +27,7 @@ print('Наблюдение завершено!')
 n = int(input('Type number: '))
 num = 1
 while num <= n:
-    print(num, '** 2 =',num ** 2)
+    print(num, '** 2 =', num ** 2)
     num += 2
 
 # Task 3 (for)

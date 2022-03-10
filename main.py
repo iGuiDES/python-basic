@@ -1,2 +1,10 @@
-
-from module8.home import home_01
+from module8 import task_1
+from module8 import task_2
+from module8 import task_3
+from module8 import task_4
+from module8 import task_5
+from module8 import task_6
+from module8 import task_7
+from module8 import task_8
+from module8 import task_9
+from module8 import task10
