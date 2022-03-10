@@ -39,7 +39,7 @@ girls = int(input('Сколько девочек иде на концерт? '))
 seating = ''
 
 if (boys > girls * 2) or (girls > boys * 2):
-    print('Хм, кажется нет решения')
+    print('Нет решения')
 elif boys >= girls:
     total = boys - girls
     for bgb in range(total):
